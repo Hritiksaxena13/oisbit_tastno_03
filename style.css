@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(map2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+}
+form{
+    width: 60%;
+    padding: 60px;
+    text-align: center;
+    margin: 100px auto;
+    background-color: #767ef4;
+    border-radius: 50%;
+    box-shadow: 0 10px 6px -6px #000000;
+    -moz-box-shadow:0 10px 6px -6px #000000;
+    -webkit-box-shadow:0 20px 6px -6px #0000ff;
+}
+#tempCalc label{
+    font-size: 27px;
+}
+#temp{
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-style: 20px;
+    margin-top: 20px;
+}
+#temp_diff{
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+[type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+}
+[type="submit"]:hover{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 25px;
+    background-color: rgb(13, 0, 255);
+}
+#resultContainer{
+    font-size: 35px;
+}
+footer{
+    color: #0000ff;
+    background-color: #000000;
+    cursor: default;
+}
